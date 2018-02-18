@@ -1,0 +1,41 @@
+.list {
+  width: 80%;
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 60%;
+  }
+  margin: 10rem auto 3rem auto;
+  text-align: left;
+  > .unordered-list {
+    list-style-type: none;
+  }
+}
+
+li,
+a,
+.text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 0.3rem;
+  word-spacing: 0.3rem;
+  font-size: 2.5rem;
+  padding: 0.5rem 0;
+}
+
+h3 {
+  font-size: 4rem;
+  text-align: left;
+  text-shadow: 0.5rem 0.3rem 2rem #fff;
+  margin: 2rem 0;
+}
+
+a {
+  text-align: left;
+  color: #ff00a0;
+
+  &:hover {
+    color: lightsteelblue;
+  }
+}
