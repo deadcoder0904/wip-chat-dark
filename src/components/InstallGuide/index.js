@@ -105,7 +105,7 @@ const InstallGuide = () => (
         </a>
       </li>
       <li>
-        <a href="http://sobolev.us/stylish/">Safari Extension</a>
+        <a href="https://sobolev.us/stylish/">Safari Extension</a>
       </li>
       <li>
         <a href="https://addons.mozilla.org/en-US/firefox/addon/2108/">
@@ -119,8 +119,16 @@ const InstallGuide = () => (
         Dark Theme
       </a>{" "}
       for 🚧WIP made by{" "}
-      <a href="http://twitter.com/deadcoder0904" target="_blank">
+      <a href="https://twitter.com/deadcoder0904" target="_blank">
         @deadcoder0904
+      </a>
+    </div>
+
+    <h3>Want to Contribute ?</h3>
+    <div className="text">
+      Its Open Source. Checkout the{" "}
+      <a href="https://github.com/deadcoder0904/wip-dark" target="_blank">
+        Source Code
       </a>
     </div>
   </div>
